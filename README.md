@@ -6,10 +6,12 @@ ThinkAI Morocco 2023 is a 3-days AI Hackathon co-hosted by 1337AI and Math&Maroc
 
 The goal of this challenge is to develop a product that solves a real-world problem faced by Moroccans. Participants will be required to ideate, design, and develop a working prototype of their product using AI technologies - **without any need to train the model**. The product can be in any industry, including healthcare, education, finance, and agriculture.
 
+
 ## Welcome to KOZINTAI - Recipe generator
 
 **_Transform your kitchen ingredients into delicious meals with our app, powered by natural language processing technology._**
 
+#### Project Focus
 KOZINTAI is a Moroccan recipe generator web app that could become a comprehensive resource for Moroccan cuisine, catering to users with different preferences and skill levels, and promoting local food culture and sustainability ^^.
 
 This web application allows users to give ingredients they have in their kitchen to the app and get recipe suggestions based on those ingredients. The application uses natural language processing technology to generate recipe suggestions and provide step-by-step instructions on how to make the meal. This could help users make the most of the ingredients they have and reduce food waste.
@@ -18,8 +20,24 @@ This web application allows users to give ingredients they have in their kitchen
 - The app could allow users to specify dietary restrictions, such as gluten-free or vegan, and generate recipes that meet those requirements.
 - The app could suggest recipes based on the season or time of year, featuring ingredients that are in season in Morocco.
 
-### The architecture used
+#### The architecture used
+
+[!Architecture](docs/README.png)
+
 Web app (React) -> Call Vectors from data to check cosinsimularity with the inputs -> Prompt Engineering (Generate context and guiding the model to generate useful output) -> large language model OPenAI
 
 Contexte retrivel
 Embeddings -> to generate vectors in data to check cosin similiraty between 100 Marrocan recepies and the inputs from user 
+
+#### User Interface
+
+#### Principles used
+
+#### Requirements
+
+#### Getting started :p
+
+
+
+
+
