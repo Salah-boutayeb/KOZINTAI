@@ -29,6 +29,10 @@ Web app (React JS) **->** Call Vectors from /data to check Cosine similarity wit
 #### 3. User Interface
 
 #### 4. Principles used
+- Prompt Engineering
+- REST API
+- Context retrival
+- langue language model
 
 #### 5. Requirements
 
