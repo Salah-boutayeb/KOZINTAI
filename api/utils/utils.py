@@ -16,10 +16,6 @@ co = cohere.Client(key)
 openai.api_key = os.getenv('openai_key')
 
 
-def message():
-    return "Hello World"
-
-
 def get_recipe_from_file():
     absolute_path = os.path.dirname(__file__)
     relative_path = "../../data/data.txt"
