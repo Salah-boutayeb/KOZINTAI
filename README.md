@@ -22,7 +22,7 @@ This web application allows users to give ingredients they have in their kitchen
 
 #### The architecture used
 
-[(docs/README.png)]
+[![Architecture](/docs/README.png)
 
 Web app (React) -> Call Vectors from data to check cosinsimularity with the inputs -> Prompt Engineering (Generate context and guiding the model to generate useful output) -> large language model OPenAI
 
