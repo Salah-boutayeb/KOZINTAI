@@ -27,9 +27,9 @@ This web application allows users to give ingredients they have in their kitchen
 Web app (React JS) **->** Call Vectors from /data to check Cosine similarity with the inputs (We used Contexte retrivel to generate vectors in /data to check cosin similiraty between 100 Marrocan recepies and the inputs from user) **->** Prompt Engineering (Generate context and guiding the model to generate useful output) **->** large language model using InstructGPT (OpenAI's GPT-3 model that is optimized to follow instructions, instead of predicting the most probable word) **->** Web app
 
 #### 3. User Interface
-![Architecture](/docs/front1.png)
-![Architecture](/docs/front2.png)
-![Architecture](/docs/front3.png)
+![Architecture](/docs/front1.jpeg)
+![Architecture](/docs/front2.jpeg)
+![Architecture](/docs/front3.jpeg)
 
 #### 4. Principles used
 - Prompt Engineering
